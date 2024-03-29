@@ -9,7 +9,7 @@ type ACK struct {
 	Id         []byte `json:"ID"`
 }
 
-type BlockData struct {
+type SymbolBundleData struct {
 	Channel                 string
 	Id                      string
 	Symbols                 []SymbolData
